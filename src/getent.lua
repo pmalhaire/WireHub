@@ -1,4 +1,4 @@
--- Resolve entitty name to key
+-- Resolve entity name to key
 
 local function find_shorter(n, k, cb)
     local test = function(p)
@@ -15,7 +15,7 @@ local function find_shorter(n, k, cb)
         for _, p in ipairs(bucket) do
             if test(p) then
                 if match then
-                    -- there's an possible ambiguity. fails
+                    -- Fail if there's a possible ambiguity.
                     return cb(nil)
                 else
                     match = p

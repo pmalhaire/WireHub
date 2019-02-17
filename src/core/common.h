@@ -11,16 +11,6 @@
 #include <stdlib.h>
 #include <string.h>
 
-/*
-#include <arpa/inet.h>
-#include <netdb.h>
-#include <sys/socket.h>
-#include <sys/types.h>
-#include <unistd.h>
-
-#include <pcap.h>
-#include <sodium.h>
-*/
 /*** CONSTANTS ***************************************************************/
 
 #define crypto_scalarmult_curve25519_KEYBASE64BYTES 44
