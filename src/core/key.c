@@ -4,6 +4,7 @@
 #include <pthread.h>
 #include <sodium.h>
 
+// what does trailing_0s_buf mean ?
 int trailing_0s_buf(const void* buf, size_t l) {
     assert(l % sizeof(uint32_t) == 0);
     unsigned int i;

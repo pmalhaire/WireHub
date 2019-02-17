@@ -8,6 +8,9 @@
 #include <lauxlib.h>
 #include <lualib.h>
 
+
+// it seems to be the external view of the c bindings
+// moving this header to a folder (wh_c2lua for example) may make the code easier to enter
 int luaW_version(lua_State *L);
 
 void* luaW_newsecret(lua_State* L, size_t len);

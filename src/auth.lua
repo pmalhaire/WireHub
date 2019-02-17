@@ -11,6 +11,7 @@
 
 local packet = require('packet')
 
+-- What does it means this M is it module ?
 local M = {}
 
 local function explain(n, fmt, ...)
